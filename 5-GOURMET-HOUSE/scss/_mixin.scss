@@ -1,0 +1,15 @@
+@mixin titulo($tipo) {
+    margin-bottom: 5px;;
+    color: $primary;
+    font-weight: normal;
+    font-family: 'KillTheLights';
+    
+    @if($tipo == 'h2'){
+        font-size: 24px;
+
+    }@else if($tipo == 'h3'){
+        font-size: 21px;
+
+    }
+    
+}

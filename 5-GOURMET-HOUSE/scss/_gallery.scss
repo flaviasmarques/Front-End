@@ -1,0 +1,14 @@
+.gallery{
+
+   
+    h3{
+        @include titulo('h3')
+    }
+}
+
+@media (max-width:1199){
+    .gallery{
+        text-align: center;
+    }
+
+}
