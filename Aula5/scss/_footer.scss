@@ -1,0 +1,11 @@
+.footer{
+    background-image: linear-gradient($primary,$primary-dark);
+    pad: 15px 0;
+    text-align: center;
+
+    p{
+        margin: 0;
+        color: $white;
+        font-size: 14px;
+    }
+}

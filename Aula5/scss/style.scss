@@ -1,0 +1,50 @@
+//Variaveis (Style chamando(importar) as variaveis globais e arquivos(fonts, body, header))
+
+@import 'variaveis';
+@import 'mixin';
+@import 'fonts';
+@import 'reset';
+@import 'header';
+@import 'banner';
+@import 'presentation';
+@import 'components';
+@import 'gallery';
+@import 'comment';
+@import 'footer';
+
+
+.lgpd{
+    display: none;
+    background-color: #222;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+
+    p{
+        color: $white;
+    }
+
+    .btn{
+        color:#222;
+
+        &:hover{
+            color: $white;
+        }
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
